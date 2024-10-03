@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+    padding: 50px;
+    color: #333;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.5;
+
+    background-color: #ebebeb;
+}
+
+h1 {
+    column-span: all;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+}
+
+.colums-2 {
+    column-count: 2;
+    column-width: 250px;
+    column-rule: 2px solid black;
+}
+
+.colums-2 p{
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+
+    
+}
+figure {
+    border: 1px solid;
+    break-inside: avoid;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Spisok polzovatelya</h1>
+    <script>
+      let ulElement = document.createElement('ul'); 
+        document.body.append(ulElement);
+  while (true) {
+    let box = prompt("Vvelite cho ta", "");
+    if (!box) {
+      break;
+    }
+    let liElement = document.createElement("li");
+liElement.textContent = box;
+ulElement.append(liElement);
+  }
+  </script>
+</body>
+</html>

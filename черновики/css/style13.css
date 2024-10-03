@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#word {
+  width: 450px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+}
+
+.divchiki {
+     border: 1px solid; 
+     border-color: aliceblue;
+    background-color: plum;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+}
+
+#restartButton {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 15px;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: lightblue;
+
+}
+
+#newPs {
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+

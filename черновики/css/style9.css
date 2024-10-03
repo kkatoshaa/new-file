@@ -1,0 +1,29 @@
+.container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.block1 {
+    background-color: #FFC0CB;
+    
+}
+
+.block2 {
+background-color: #add8e6;
+flex-grow: 1;
+
+}
+
+.block2 div {
+    background: white;
+}
+
+.block3 {
+background-color: #90ee90;
+}
+
+.items {
+    min-width: 100%;
+}
